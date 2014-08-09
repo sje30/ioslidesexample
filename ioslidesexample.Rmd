@@ -194,4 +194,16 @@ rmarkdown::render("ioslidesexample.Rmd")
 ```
 or use the Makefile.
 
+
+## Updates
+
+- Line-spacing issue fixed in rmarkdown (end July 2014).  You may need
+  to install dev version of rmarkdown using
+
+```{r eval=FALSE}
+devtools::install_github("rstudio/rmarkdown")
+```
+
+
+
 ## References
