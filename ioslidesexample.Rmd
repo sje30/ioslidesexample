@@ -3,6 +3,7 @@ title: "Rmarkdown slides"
 subtitle: "An example with ioslides"
 author: Stephen J Eglen
 date: 2014-08-03
+bibliography: example.bib
 output:
   ioslides_presentation
 ---
@@ -153,12 +154,17 @@ Cell 3        | Cell 4
 Cell 5        | Cell 6
 
 
+## Citations
+
+Citations can be included in your talk, with a "References" slide at
+the end.  For example, @Xie2013 and @Gentleman2004.
+
+[documentation](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
+
 # What's next?
 
 
 ## What's missing?
-
-- Can we include bibtex references (a la pandoc).
 
 - Probably hard to fine-tune the positioning of elements on a given
 slide.
@@ -187,3 +193,5 @@ compile them using:
 rmarkdown::render("ioslidesexample.Rmd")
 ```
 or use the Makefile.
+
+## References
